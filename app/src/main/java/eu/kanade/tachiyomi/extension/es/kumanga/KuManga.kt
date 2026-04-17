@@ -9,7 +9,7 @@ import java.util.Calendar
 
 class KuManga : ParsedHttpSource() {
     override val name = "KuManga"
-    override val baseUrl = "https://www.kumanga.com"
+    override val baseUrl = "https://www.kumanga.com/mangalist?page=1"
     override val lang = "es"
     override val supportsLatest = true
 
